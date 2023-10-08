@@ -282,31 +282,31 @@ static void yy_fatal_error YY_PROTO(( yyconst char msg[] ));
 	*yy_cp = '\0'; \
 	yy_c_buf_p = yy_cp;
 
-#define YY_NUM_RULES 15
-#define YY_END_OF_BUFFER 16
-static yyconst short int yy_accept[26] =
+#define YY_NUM_RULES 18
+#define YY_END_OF_BUFFER 19
+static yyconst short int yy_accept[29] =
     {   0,
-        0,    0,   16,   14,   15,    7,    8,   12,   10,   11,
-       13,    3,    9,    6,    4,    4,    4,    3,    5,    4,
-        4,    1,    4,    2,    0
+        0,    0,   19,   17,   16,   16,    7,    8,   14,   12,
+       13,   15,    3,    9,    6,    4,    4,    4,   10,   11,
+        3,    5,    4,    4,    1,    4,    2,    0
     } ;
 
 static yyconst int yy_ec[256] =
     {   0,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    2,
+        1,    1,    1,    1,    1,    1,    1,    1,    2,    3,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    3,
-        4,    5,    6,    1,    7,    1,    8,    9,    9,    9,
-        9,    9,    9,    9,    9,    9,    9,    1,   10,    1,
-       11,    1,    1,    1,   12,   12,   12,   12,   12,   12,
-       12,   12,   12,   12,   12,   12,   12,   12,   12,   12,
-       12,   12,   12,   12,   12,   12,   12,   12,   12,   12,
-        1,    1,    1,    1,    1,    1,   12,   12,   12,   12,
+        1,    2,    1,    1,    1,    1,    1,    1,    1,    4,
+        5,    6,    7,    1,    8,    1,    9,   10,   10,   10,
+       10,   10,   10,   10,   10,   10,   10,    1,   11,    1,
+       12,    1,    1,    1,   13,   13,   13,   13,   13,   13,
+       13,   13,   13,   13,   13,   13,   13,   13,   13,   13,
+       13,   13,   13,   13,   13,   13,   13,   13,   13,   13,
+        1,    1,    1,    1,    1,    1,   13,   13,   13,   13,
 
-       13,   14,   12,   12,   15,   12,   12,   16,   12,   12,
-       12,   12,   12,   12,   17,   12,   12,   12,   12,   12,
-       12,   12,    1,    1,    1,    1,    1,    1,    1,    1,
+       14,   15,   13,   13,   16,   13,   13,   17,   13,   13,
+       13,   13,   13,   13,   18,   13,   13,   13,   13,   13,
+       13,   13,   19,    1,   20,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
@@ -323,42 +323,42 @@ static yyconst int yy_ec[256] =
         1,    1,    1,    1,    1
     } ;
 
-static yyconst int yy_meta[18] =
+static yyconst int yy_meta[21] =
     {   0,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    2,    2,    2,    2,    2,    2
+        1,    1,    2,    2,    2,    2,    2,    2,    1,    1
     } ;
 
-static yyconst short int yy_base[27] =
+static yyconst short int yy_base[30] =
     {   0,
-        0,    0,   26,   27,   27,   27,   27,   27,   27,   27,
-       27,   16,   27,   13,    0,    7,    8,   12,   27,    0,
-        3,    0,    6,    0,   27,   16
+        0,    0,   29,   30,   30,   30,   30,   30,   30,   30,
+       30,   30,   18,   30,   15,    0,    9,   10,   30,   30,
+       14,   30,    0,    5,    0,    8,    0,   30,   19
     } ;
 
-static yyconst short int yy_def[27] =
+static yyconst short int yy_def[30] =
     {   0,
-       25,    1,   25,   25,   25,   25,   25,   25,   25,   25,
-       25,   25,   25,   25,   26,   26,   26,   25,   25,   26,
-       26,   26,   26,   26,    0,   25
+       28,    1,   28,   28,   28,   28,   28,   28,   28,   28,
+       28,   28,   28,   28,   28,   29,   29,   29,   28,   28,
+       28,   28,   29,   29,   29,   29,   29,    0,   28
     } ;
 
-static yyconst short int yy_nxt[45] =
+static yyconst short int yy_nxt[51] =
     {   0,
         4,    5,    6,    7,    8,    9,   10,   11,   12,   13,
-       14,   15,   16,   15,   17,   15,   15,   20,   24,   23,
-       18,   22,   21,   19,   18,   25,    3,   25,   25,   25,
-       25,   25,   25,   25,   25,   25,   25,   25,   25,   25,
-       25,   25,   25,   25
+       14,   15,   16,   17,   16,   18,   16,   16,   19,   20,
+       23,   27,   26,   21,   25,   24,   22,   21,   28,    3,
+       28,   28,   28,   28,   28,   28,   28,   28,   28,   28,
+       28,   28,   28,   28,   28,   28,   28,   28,   28,   28
     } ;
 
-static yyconst short int yy_chk[45] =
+static yyconst short int yy_chk[51] =
     {   0,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1,    1,    1,    1,    1,   26,   23,   21,
-       18,   17,   16,   14,   12,    3,   25,   25,   25,   25,
-       25,   25,   25,   25,   25,   25,   25,   25,   25,   25,
-       25,   25,   25,   25
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+       29,   26,   24,   21,   18,   17,   15,   13,    3,   28,
+       28,   28,   28,   28,   28,   28,   28,   28,   28,   28,
+       28,   28,   28,   28,   28,   28,   28,   28,   28,   28
     } ;
 
 static yy_state_type yy_last_accepting_state;
@@ -581,13 +581,13 @@ yy_match:
 			while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 				{
 				yy_current_state = (int) yy_def[yy_current_state];
-				if ( yy_current_state >= 26 )
+				if ( yy_current_state >= 29 )
 					yy_c = yy_meta[(unsigned int) yy_c];
 				}
 			yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
 			++yy_cp;
 			}
-		while ( yy_base[yy_current_state] != 27 );
+		while ( yy_base[yy_current_state] != 30 );
 
 yy_find_action:
 		yy_act = yy_accept[yy_current_state];
@@ -641,7 +641,7 @@ YY_RULE_SETUP
 case 6:
 YY_RULE_SETUP
 #line 12 "ejemplo1.l"
-{ printf("Operador de asignación\n"); }
+{ printf("Operador de asignacion\n"); }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
@@ -661,34 +661,49 @@ YY_RULE_SETUP
 case 10:
 YY_RULE_SETUP
 #line 16 "ejemplo1.l"
-{ printf("Operador de suma\n"); }
+{ printf("Llave de apertura\n"); }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
 #line 17 "ejemplo1.l"
-{ printf("Operador de resta\n"); }
+{ printf("Llave de cierre\n"); }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
 #line 18 "ejemplo1.l"
-{ printf("Operador de multiplicacion\n"); }
+{ printf("Operador de suma\n"); }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
 #line 19 "ejemplo1.l"
-{ printf("Operador de division\n"); }
+{ printf("Operador de resta\n"); }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
 #line 20 "ejemplo1.l"
-{ printf("Carácter no reconocido: %s\n", yytext); }
+{ printf("Operador de multiplicacion\n"); }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
+#line 21 "ejemplo1.l"
+{ printf("Operador de division\n"); }
+	YY_BREAK
+case 16:
+YY_RULE_SETUP
 #line 22 "ejemplo1.l"
+{ /* Ignorar espacios en blanco, tabulaciones y saltos de línea */ }
+	YY_BREAK
+case 17:
+YY_RULE_SETUP
+#line 23 "ejemplo1.l"
+{ printf("Caracter no reconocido: %s\n", yytext); }
+	YY_BREAK
+case 18:
+YY_RULE_SETUP
+#line 25 "ejemplo1.l"
 ECHO;
 	YY_BREAK
-#line 692 "lex.yy.c"
+#line 707 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -980,7 +995,7 @@ static yy_state_type yy_get_previous_state()
 		while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 			{
 			yy_current_state = (int) yy_def[yy_current_state];
-			if ( yy_current_state >= 26 )
+			if ( yy_current_state >= 29 )
 				yy_c = yy_meta[(unsigned int) yy_c];
 			}
 		yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
@@ -1015,11 +1030,11 @@ yy_state_type yy_current_state;
 	while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 		{
 		yy_current_state = (int) yy_def[yy_current_state];
-		if ( yy_current_state >= 26 )
+		if ( yy_current_state >= 29 )
 			yy_c = yy_meta[(unsigned int) yy_c];
 		}
 	yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
-	yy_is_jam = (yy_current_state == 25);
+	yy_is_jam = (yy_current_state == 28);
 
 	return yy_is_jam ? 0 : yy_current_state;
 	}
@@ -1574,12 +1589,11 @@ int main()
 	return 0;
 	}
 #endif
-#line 22 "ejemplo1.l"
+#line 25 "ejemplo1.l"
 
 
 int main() {
     yylex();
     return 0;
 }
-
 
